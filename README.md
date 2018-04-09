@@ -2,8 +2,8 @@
 [forumurl]: https://forum.linuxserver.io
 [ircurl]: https://www.linuxserver.io/irc/
 [appurl]: http://bwssystems.com/#/habridge
-[dockerfileurl]: https://github.com/linuxserver/docker-habridge/blob/master/Dockerfile
-[hub]: https://hub.docker.com/r/lsioarmhf/habridge-aarch64/
+[dockerfileurl]: https://github.com/linuxserver/docker-habridge-armhf/blob/master/Dockerfile
+[hub]: https://hub.docker.com/r/lsioarmhf/habridge/
 
 
 
@@ -29,7 +29,7 @@ The [LinuxServer.io][linuxserverurl] team brings you another image release featu
  + weekly base OS updates with common layers across the entire LinuxServer.io ecosystem to minimise space usage, down time and bandwidth
  + security updates
 
-# lsioarmhf/habridge-aarch64
+# lsioarmhf/habridge
 
 [![Dockerfile-link](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/Dockerfile-Link-green.png)][dockerfileurl]
 
@@ -55,7 +55,7 @@ docker create \
   -e SEC_KEY=<Your Key To Encrypt Security Data>
   -p 8080:8080 \
   -p 50000:50000 \
-  lsioarmhf/habridge-aarch64
+  lsioarmhf/habridge
 ```
 
 &nbsp;
@@ -119,4 +119,5 @@ For information on how to configure ha-bridge, go to their wiki at [https://gith
 
 |  Date | Changes |
 | :---: | --- |
+| 09.04.18 |  Update README.   |
 | 08.04.18 |  Initial Release. |
