@@ -9,6 +9,7 @@ LABEL maintainer="saarg"
 # install packages
 RUN \
  echo "**** install runtime packages ****" && \
+ apk add --no-cache \
 	curl \
 	jq \
 	libcap \
